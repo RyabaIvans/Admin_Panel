@@ -1,0 +1,27 @@
+.table{
+
+}
+
+.status{
+
+}
+
+
+:global(.MuiTableRow-root) > :global(*) {
+    padding: 10px;
+}
+
+:global(.MuiTableRow-head) > :global(*)  {
+    font-weight: bold !important;
+}
+
+.table td ,  th {
+    border:  none !important;
+}
+.table :first-child{
+    border-radius: 0.7rem!important;
+}
+.status{
+    padding: 8px;
+    border-radius: 9px;
+}

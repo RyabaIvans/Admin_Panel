@@ -30,8 +30,6 @@
 
 .random > :global(.CircularProgressbar-path)  {
     stroke: white!important;
-
-
 }
 
 .random > :global(.CircularProgressbar-trail){
