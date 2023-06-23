@@ -1,6 +1,7 @@
 import "./App.css";
 import Sidebar from "./components/Sidebar/sidebar";
 import MainPart from "./components/MainPart/MainPart";
+import RightSide from "./components/RightSide/RightSide";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="AppGlass">
         <Sidebar />
         <MainPart />
+        <RightSide />
       </div>
     </div>
   );
